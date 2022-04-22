@@ -1,0 +1,25 @@
+{
+    "name": "iamirnet/azbitcom",
+    "description": "PHP SDK for azbit.com",
+    "keywords": ["azbit.com","phpxt", "apixt", "sdkxt"],
+    "homepage": "https://php.iamir.net/packages/azbitcom",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name" : "iamirnet",
+            "email" : "me@iamir.net",
+            "homepage": "https://iamir.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "iAmirNet\\Azbit\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
